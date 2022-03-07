@@ -1,0 +1,48 @@
+body{
+  background-color: black;
+  color: aliceblue;
+  font-family: cursive;
+}
+h1
+{
+  text-align: center;
+}
+label{
+  font-size: 20px;
+}
+input{
+  width: 300px;
+  height: 50px;
+  margin-left: 60px;
+}
+
+#submit
+{
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color:crimson;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 280px;
+    border: none;
+    border-radius: 10px;
+}
+#dept{
+  margin-left: 10px;
+}
+#card-display
+{
+    font-size: larger;
+    background-color:rgb(72, 134, 196);
+    padding: 30px 30px 30px 30px;
+    border-radius: 20px;
+    color: white;
+}
+#card
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px ;
+  width: 70%;
+}
